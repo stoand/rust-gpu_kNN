@@ -1,0 +1,18 @@
+[package]
+
+name = "gpu_kNN"
+version = "0.0.1"
+authors = [ "Andreas Stocker <shadowstep7@gmail.com>" ]
+
+[[bin]]
+
+name = "gpu_kNN"
+
+[dependencies]
+csv = "0.14.3"
+rustc-serialize = "0.3.0"
+rand = "*"
+time = "*"
+
+[dependencies.opencl]
+git = "https://github.com/luqmana/rust-opencl"
